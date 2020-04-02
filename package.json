@@ -4,7 +4,7 @@
   "description": "Wrapper around the WMIC Windows command interface.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "tags": [
     "windows",
@@ -14,7 +14,7 @@
     "wrapper"
   ],
   "dependencies": {
-    "async": "",
+    "async": "^3.2.0",
     "iconv-lite": "^0.5.0"
   },
   "author": "Tomás Pollak <tomas@forkhq.com>",
